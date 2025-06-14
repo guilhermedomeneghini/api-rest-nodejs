@@ -44,4 +44,15 @@ acessa o arquivo settings.json > open user settings json > e adiciona o seguinte
        "source.fixAll.eslint": true,
     },
 
-com isso toda vez que salva qualquer arquivo ele auto "corrige o codigo deixando padronizado, inclusive identeção do mesmo"
+com isso toda vez que salva qualquer arquivo ele auto "corrige" o codigo deixando padronizado, inclusive identeção do mesmo
+
+## Instalar o knexjs - query builder para lidar com banco de dados
+
+1 - instalar o driver do banco de dados que ira lidar (tem na documentação do knex) 
+ ex: `npm install knex sqlite3`
+
+
+## Utilizar Migrations como versionamento do banco de dados
+
+antes do comando fiz o script do npm run "knex" para acessar o bin do knex
+`npm run knex -- migrate:make comentario`
