@@ -1,4 +1,4 @@
-## Primeiros comandos pra iniciar um projeto  # AULA PARADA > 215
+## Primeiros comandos pra iniciar um projeto  # AULA PARADA > 220
 
 1 - `npm init -y `(Cria o package.json)
 
@@ -56,3 +56,9 @@ com isso toda vez que salva qualquer arquivo ele auto "corrige" o codigo deixand
 
 antes do comando fiz o script do npm run "knex" para acessar o bin do knex
 `npm run knex -- migrate:make comentario`
+
+para edita ruma migrate ja feita (antes de enviar para o time)
+`npm run knex -- migrate:rollback` (apos isso pode ir na migration e editar a mesma)
+
+apos finalizar edição ou quando tiver concluido sua migrate executa isso.
+`npm run knex -- migrate:latest` (isso executa sua migrate editada e altera o banco de dados)
