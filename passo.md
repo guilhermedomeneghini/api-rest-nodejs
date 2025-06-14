@@ -62,3 +62,7 @@ para edita ruma migrate ja feita (antes de enviar para o time)
 
 apos finalizar edição ou quando tiver concluido sua migrate executa isso.
 `npm run knex -- migrate:latest` (isso executa sua migrate editada e altera o banco de dados)
+
+## Instalar o dotenv para poder utilizar arquivos .env
+
+`npm i dotenv`
