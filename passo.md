@@ -66,3 +66,22 @@ apos finalizar edição ou quando tiver concluido sua migrate executa isso.
 ## Instalar o dotenv para poder utilizar arquivos .env
 
 `npm i dotenv`
+
+## Instalar biblioteca ZOD para validação de dados
+
+`npm i zod`
+
+## IDEIA PARA PENSAR ANTES DE CRIAR AS APLICAÇÕES ------------
+
+# RF
+
+- [ ] - O usuário deve poder criar uma nova transação;
+- [ ] - O usuário deve poder obter um resumo da sua conta;
+- [ ] - O usuário deve poder listar todas as transaçõs que ja ocorreram;
+- [ ] - O usuário deve poder visualizar uma transação única;
+
+# RN
+
+- [ ] - A transação pode ser do tipo cŕedito que somará ao valor total, ou débito que subtrairá;
+- [ ] - Deve ser possível identificarmos o usuário entre as requisições;
+- [ ] - O usuário só pode visualizar transações o qual ele criou;
