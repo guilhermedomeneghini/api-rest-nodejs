@@ -1,4 +1,4 @@
-## Primeiros comandos pra iniciar um projeto  # AULA PARADA > 227
+## Primeiros comandos pra iniciar um projeto  # AULA PARADA > 231 > 50
 
 1 - `npm init -y `(Cria o package.json)
 
@@ -87,5 +87,16 @@ apos finalizar edição ou quando tiver concluido sua migrate executa isso.
 # RN
 
 - [x] - A transação pode ser do tipo cŕedito que somará ao valor total, ou débito que subtrairá;
-- [ ] - Deve ser possível identificarmos o usuário entre as requisições;
-- [ ] - O usuário só pode visualizar transações o qual ele criou;
+- [x] - Deve ser possível identificarmos o usuário entre as requisições;
+- [x] - O usuário só pode visualizar transações o qual ele criou;
+
+## INICIANDO COM TESTES
+
+1 - Instalar a ferramenta de teste como vitest, jest , etc
+`npm i vitest -D`
+
+2 - CRIA ARQUIVO DE TEST
+
+
+3 - INSTALAR SUPERTEST
+`npm i supertest -D`
