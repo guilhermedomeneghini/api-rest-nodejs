@@ -1,4 +1,4 @@
-## Primeiros comandos pra iniciar um projeto  # AULA PARADA > 220
+## Primeiros comandos pra iniciar um projeto  # AULA PARADA > 227
 
 1 - `npm init -y `(Cria o package.json)
 
@@ -71,17 +71,21 @@ apos finalizar edição ou quando tiver concluido sua migrate executa isso.
 
 `npm i zod`
 
+## Utiliza cookies para salvar sessão do usuario(simulando autenticação)
+
+1- instalar o `npm i @fastify/cookie`
+
 ## IDEIA PARA PENSAR ANTES DE CRIAR AS APLICAÇÕES ------------
 
 # RF
 
-- [ ] - O usuário deve poder criar uma nova transação;
-- [ ] - O usuário deve poder obter um resumo da sua conta;
-- [ ] - O usuário deve poder listar todas as transaçõs que ja ocorreram;
-- [ ] - O usuário deve poder visualizar uma transação única;
+- [x] - O usuário deve poder criar uma nova transação;
+- [x] - O usuário deve poder obter um resumo da sua conta;
+- [x] - O usuário deve poder listar todas as transaçõs que ja ocorreram;
+- [x] - O usuário deve poder visualizar uma transação única;
 
 # RN
 
-- [ ] - A transação pode ser do tipo cŕedito que somará ao valor total, ou débito que subtrairá;
+- [x] - A transação pode ser do tipo cŕedito que somará ao valor total, ou débito que subtrairá;
 - [ ] - Deve ser possível identificarmos o usuário entre as requisições;
 - [ ] - O usuário só pode visualizar transações o qual ele criou;
