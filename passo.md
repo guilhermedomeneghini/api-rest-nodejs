@@ -1,4 +1,4 @@
-## Primeiros comandos pra iniciar um projeto  # AULA PARADA > 231 > 50
+## Primeiros comandos pra iniciar um projeto  # AULA PARADA > 231 > 52
 
 1 - `npm init -y `(Cria o package.json)
 
