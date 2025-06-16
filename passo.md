@@ -100,3 +100,10 @@ apos finalizar edição ou quando tiver concluido sua migrate executa isso.
 
 3 - INSTALAR SUPERTEST
 `npm i supertest -D`
+
+## PASSO PARA DEPLOY
+
+## 1 - CONVERTER O PROJETO TS PARA JS
+
+1 - Instalar a ferramenta tsup > `npm i tsup -D`
+2 - Criar script no package.json > "build": "tsup src --out-dir build"
